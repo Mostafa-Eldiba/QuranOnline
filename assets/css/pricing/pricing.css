@@ -1,0 +1,325 @@
+:root {
+    --color-white: #fff;
+    --color-gray-50: #ffffffcc;
+    --color-gray-100: #f5f5f5;
+    --color-gray-200: #e5e5e5;
+    --color-gray-300: #d4d4d4;
+    --color-gray-400: #a3a3a3;
+    --color-gray-500: #737373;
+    --color-gray-600: #525252;
+    --color-gray-700: #404040;
+    --color-gray-800: #262626;
+    --color-gray-900: #171717;
+    --color-black: #141414;
+    --color-black-two: black;
+    --color-black-three: #161616;
+    --color-black-four: #32373c;
+    --color-lightGray-1: #e7e7e7;
+    --color-lightGray-2: #e8e8e8;
+    --color-lightGray-3: #f1f1f1;
+    --color-lightGray-4: #777777;
+    --color-lightGray-5: #eeeeee;
+    --color-lightGray-6: #838383;
+    --color-lightGray-7: #f7f7f7;
+    --color-lightGray-8: #e9e9e9;
+    --color-dark-blue: #334862;
+    --color-dark-blue-two: #446084;
+    --color-dark-blue-three: #0078d7;
+    --color-dark-blue-four: #1c64f2;
+    --color-yellow-one: #ffb606;
+    --color-yellow-two: #cc9104;
+    --color-yellow-three: #e6a303;
+    --color-yellow-four: #faedcc;
+    --color-yellow-five: #e9a501;
+    --color-yellow-sex: #de982f;
+    --color-yellow-seven: #f8ead5;
+    --color-yellow-eight: #f7f7f7;
+    --color-yellow-nine: #faca15;
+    --color-red-one: #d26e4b;
+    --color-red-two: #f1d3c8;
+    --color-red-three: #dd3333;
+    --color-green-one: #057a55;
+    --transition-0-3: 0.3s;
+    --transition-0-5: 0.5s;
+}
+
+
+/* Start Pricing */
+.pricing {
+    padding: 70px 0;
+}
+
+.pricing .container-fluid .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.pricing .container-fluid .title h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pricing .container-fluid .title h2 span {
+    color: var(--color-yellow-one);
+}
+
+.pricing .container-fluid .title p {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-lightGray-4);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .pricing .container-fluid .title h2 {
+        font-size: 30px;
+    }
+
+    .pricing .container-fluid .title p {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+}
+
+.pricing .container-fluid .pricing-icon svg {
+    margin-bottom: 50px;
+}
+
+.pricing .container-fluid .pricing-icon svg path {
+    fill: var(--color-yellow-one);
+}
+
+.pricing .container-fluid .pricing-content {
+    font-family: "Roboto", sans-serif;
+}
+
+.pricing .container-fluid .pricing-content h2 {
+    color: var(--color-yellow-one);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pricing .container-fluid .pricing-content strong {
+    color: var(--color-lightGray-4);
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.pricing .container-fluid .pricing-content strong a {
+    font-weight: bold;
+    color: var(--color-yellow-one);
+}
+
+.pricing .container-fluid .pricing-content .btns-tutorial a {
+    background-color: var(--color-yellow-one);
+
+}
+
+.btns-tutorial a {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 150px;
+    height: 39px;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 2.7;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 0 1.2em;
+    vertical-align: middle;
+    margin-right: 16px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: var(--transition-0-5);
+}
+
+.pricing .container-fluid .pricing-content .btns-tutorial a:hover {
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+.pricing .pricing-content-two span {
+    display: block;
+    text-align: center;
+}
+
+.pricing .pricing-content-two .counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing .pricing-content-two .counter .counter-content {
+    background-color: var(--color-yellow-one);
+    width: 120px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .pricing .pricing-content-two .counter .counter-content {
+        width: 70px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pricing .pricing-content-two .counter .counter-content {
+        width: 110px;
+    }
+}
+
+.pricing .pricing-content-two .counter .counter-content h4 {
+    text-align: center;
+    color: var(--color-white);
+    font-size: 50px;
+}
+
+.pricing .pricing-content-two .counter .counter-content span {
+    text-transform: uppercase;
+    color: #ffe5b5;
+    font-weight: 700;
+}
+
+.pricing-tutorials {
+    background-image: url(../images/background.webp);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.pricing-tutorials .container-fluid {
+    position: relative;
+}
+
+.container-fluid .colum-left-pricing-content h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container-fluid .colum-left-pricing-content p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--color-lightGray-3);
+    margin-bottom: 15px;
+    font-family: "Roboto", serif;
+}
+
+.container-fluid .colum-left-pricing-content p span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container-fluid .colum-left-pricing-content img {
+    width: 45%;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+/* End Pricing */
+
+
+/* Start Quran & Arabic Classes Fees */
+.quran-arabic-classes-fees .container-fluid .title {
+    text-align: center;
+}
+
+.quran-arabic-classes-fees .container-fluid .title h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quran-arabic-classes-fees .container-fluid .tltle-content {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: var(--color-lightGray-4);
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.quran-arabic-classes-fees .container-fluid .tltle-content span {
+    color: var(--color-yellow-one);
+}
+
+.quran-arabic-classes-fees .container-fluid .tltle-content::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: var(--color-yellow-two);
+    top: 40px;
+    left: 0;
+}
+
+.quran-arabic-classes-fees .container-fluid .switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quran-arabic-classes-fees .container-fluid .switcher li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: var(--color-lightGray-4);
+    font-weight: bold;
+    border-radius: 99px;
+    background-color: #f6f4f4;
+    border-right: 1px solid white;
+    cursor: pointer;
+    transition: var(--transition-0-3);
+}
+
+.quran-arabic-classes-fees .container-fluid .switcher li.active,
+.quran-arabic-classes-fees .container-fluid .switcher li:hover {
+    background-color: var(--color-yellow-one);
+    color: #fff;
+}
+
+.content>div:not(:first-child) {
+    display: none;
+}
+
+.all-card {
+    display: flex;
+}
+
+.quran-arabic-classes-fees .container-fluid .tab-content .col-xl-3.col-md-6 {
+    width: 100%;
+}
+
+.quran-arabic-classes-fees .container-fluid .card {
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .22);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.quran-arabic-classes-fees .container-fluid .card h5 {
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: var(--color-yellow-one);
+}
+
+.quran-arabic-classes-fees .container-fluid .card .btns-tutorial .btn-primary-3.register-now {
+    width: 60%;
+    background-color: var(--color-yellow-one);
+}
+
+.quran-arabic-classes-fees .container-fluid .card .btns-tutorial:hover .btn-primary-3.register-now {
+    background-color: var(--color-yellow-two);
+}
+
+/* End Quran & Arabic Classes Fees */

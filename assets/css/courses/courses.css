@@ -1,0 +1,240 @@
+:root {
+    --color-white: #fff;
+    --color-gray-50: #ffffffcc;
+    --color-gray-100: #f5f5f5;
+    --color-gray-200: #e5e5e5;
+    --color-gray-300: #d4d4d4;
+    --color-gray-400: #a3a3a3;
+    --color-gray-500: #737373;
+    --color-gray-600: #525252;
+    --color-gray-700: #404040;
+    --color-gray-800: #262626;
+    --color-gray-900: #171717;
+    --color-black: #141414;
+    --color-black-two: black;
+    --color-black-three: #161616;
+    --color-black-four: #32373c;
+    --color-lightGray-1: #e7e7e7;
+    --color-lightGray-2: #e8e8e8;
+    --color-lightGray-3: #f1f1f1;
+    --color-lightGray-4: #777777;
+    --color-lightGray-5: #eeeeee;
+    --color-lightGray-6: #838383;
+    --color-lightGray-7: #f7f7f7;
+    --color-lightGray-8: #e9e9e9;
+    --color-dark-blue: #334862;
+    --color-dark-blue-two: #446084;
+    --color-dark-blue-three: #0078d7;
+    --color-dark-blue-four: #1c64f2;
+    --color-yellow-one: #ffb606;
+    --color-yellow-two: #cc9104;
+    --color-yellow-three: #e6a303;
+    --color-yellow-four: #faedcc;
+    --color-yellow-five: #e9a501;
+    --color-yellow-sex: #de982f;
+    --color-yellow-seven: #f8ead5;
+    --color-yellow-eight: #f7f7f7;
+    --color-yellow-nine: #faca15;
+    --color-red-one: #d26e4b;
+    --color-red-two: #f1d3c8;
+    --color-green-one: #057a55;
+    --transition-0-3: 0.3s;
+    --transition-0-5: 0.5s;
+}
+
+/* Start Quran Ayats Courses */
+.quran-ayats-courses {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../images/courses/Courses-Page-Cover.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: content-box;
+    position: relative;
+}
+
+/* Start Effect */
+.quran-ayats-courses .effect-sparkle {
+    animation: sparkle 60s linear infinite;
+    background-image: url(../../images/courses/sparkle1.png),
+        url(../../images/courses/sparkle2.png);
+}
+
+.no-click {
+    pointer-events: none;
+}
+
+.fill {
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* End Effect */
+.quran-ayats-courses .container .title {
+    text-align: center;
+    color: var(--color-white);
+}
+
+.quran-ayats-courses .container .title h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.quran-ayats-courses .container .title span {
+    color: var(--color-yellow-one);
+}
+
+.quran-ayats-courses .container .title p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+
+    .quran-ayats-courses .container .title h2,
+    .quran-ayats-courses .container .title p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .quran-ayats-courses .container .title h2 {
+        font-size: 25px;
+
+    }
+
+    .quran-ayats-courses .container .title p {
+        font-size: 18px;
+    }
+}
+
+.quran-ayats-courses .container .title .btns-tutorial .btn-primary-3.take-free-trial {
+    width: 227px;
+    height: 52px;
+    font-size: 20px;
+    color: var(--color-yellow-one);
+    border: 2px solid var(--color-yellow-one);
+}
+
+.quran-ayats-courses .container .title .btns-tutorial .btn-primary-3:hover.take-free-trial {
+    background-color: var(--color-yellow-one);
+    border: none;
+    color: var(--color-white);
+}
+
+
+/* Keyframes */
+@keyframes sparkle {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+
+    100% {
+        background-position: -500px -1000px, -400px -400px, 300px 300px;
+    }
+}
+
+/* End Quran Ayats Courses */
+
+
+/* Start Featured Courses */
+.featured-courses {
+    padding: 70px 0;
+}
+
+.featured-courses .container .title {
+    text-align: center;
+}
+
+.featured-courses .container .title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.featured-courses .container .title h2 span {
+    color: var(--color-yellow-one);
+}
+
+@media screen and (max-width: 768px) {
+    .featured-courses .container .title h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.featured-courses .container .title p {
+    color: var(--color-lightGray-4);
+}
+
+.featured-courses .container .title p span {
+    color: var(--color-yellow-one);
+}
+
+.featured-courses .container .title .line {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: var(--color-yellow-three);
+    margin: 0 auto 40px;
+}
+
+.featured-courses .container .card {
+    text-align: center;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+    margin-bottom: 20px;
+    transition: var(--transition-0-5);
+}
+
+.featured-courses .container .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .1);
+}
+
+.featured-courses .container .card .card-body h5 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.featured-courses .container .card .card-body a strong {
+    color: var(--color-yellow-one);
+    font-size: 17px;
+    transition: var(--transition-0-3);
+}
+
+.featured-courses .container .card .card-body a:hover strong {
+    color: var(--color-yellow-two);
+}
+
+.featured-courses .container .card .card-body p {
+    font-size: 17px;
+}
+
+.featured-courses .container .btns-tutorial a {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    line-height: 3.2;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: var(--color-yellow-one);
+    margin: 0;
+    transition: var(--transition-0-5);
+
+}
+
+.featured-courses .container .btns-tutorial a:hover {
+    background-color: var(--color-yellow-two);
+}
+
+/* End Featured Courses */

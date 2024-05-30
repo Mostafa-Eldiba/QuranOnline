@@ -1,0 +1,53 @@
+/* Start Header Contact */
+header .header-contact {
+    background-color: var(--color-black);
+    color: #fff;
+    font-weight: bold;
+    line-height: 3;
+  }
+  
+  header .header-contact .email {
+    color: var(--color-gray-50);
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: var(--transition-0-3);
+  }
+  
+  header .header-contact .email::before {
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
+  header .header-contact .email:hover {
+    color: var(--color-white);
+  }
+  
+  header .header-contact .phone {
+    color: var(--color-dark-blue);
+    cursor: pointer;
+    transition: var(--transition-0-3);
+  }
+  
+  header .header-contact .phone::before {
+    content: "\f095";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+  }
+  
+  header .header-contact .phone:hover {
+    color: var(--color-gray-500);
+  }
+  
+  @media (max-width: 991px) {
+    header .header-contact .email {
+      display: none;
+    }
+  
+    header .header-contact .phone {
+      display: none;
+    }
+  }
+  
+  /* End Header Contact */

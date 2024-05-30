@@ -1,0 +1,201 @@
+<div class="col colum-right" style="display: none;">
+<div class="title-home-about">
+  <h2><span>What you will learn at quran ayat</span></h2>
+</div>
+
+<div class="accordion-wrapper">
+  <div class="accordion">
+    <input type="radio" name="radio-a" id="check1" checked>
+    <label class="accordion-label active" for="check1">Learn Quran</label>
+    <div class="accordion-content">
+      <p><a href=""><strong>Best Online Quran Classes</strong></a> at Quran Ayat.</p>
+
+      <p><strong>Learn the fundamentals of the Quran</strong> includes the correct pronunciation of words
+        alphabetically and grammatically.</p>
+
+      <p>Our <a href="">Quran courses</a> outlines have been designed in such a way
+        that the reader learns to <em>read Quran with fluency and correct tajweed</em>.</p>
+      <p>To worship Allah is the prime responsibility of a Muslim to demonstrate their faith and strengthen
+        their belief in him.</p>
+      <p>Doing good deeds is a most important trait of a good Muslim; which is why <a
+          href="">online Quran classes for kids</a> help them reading
+        Quran with deep devotion and understanding of its meaning is the highest deed to seek Allah’s pleasure.
+      </p>
+      <p>Why your child needs a Quran Academy?</p>
+      <p><strong>Online Quran classes in the USA, UK, Canada, and&nbsp;</strong><span
+          style="font-size: 14.4px;"><b>Australia</b></span>&nbsp;are available online where knowledgeable
+        <strong>Quran teaching professionals</strong> deliver you the best services honestly.</p>
+      <p>An <a href="">online Quran tutor</a> will shape the minds of your
+        children to read the Quran as they should.</p>
+      <p>Allah will reward your children and us if they act like true servants of Allah.</p>
+      <p><strong>Our Quran Programs include:</strong></p>
+      <ul class="list">
+        <li><strong>Quran Teaching Program</strong> is comprehensive for every student to learn the blessings of
+          God.</li>
+        <li>The course introduction includes the <strong>basic principles of Islam </strong></li>
+        <li><strong>and Quran</strong> including the Quran reading for the first time.</li>
+        <li>The online tutors provide genuine <strong>assistance in reading and reciting Quran</strong>.<br>
+          To fully comprehend and grasp the ideology behind Quran and divine messages of Allah, the
+          knowledgeable tutors of Islam give in-depth details of each chapter.</li>
+        <li><strong>Lectures on the Islamic ideology</strong> and religious beliefs.</li>
+        <li><strong>Complete memorization assistance of Quran</strong> (the whole 30 paras)</li>
+        <li>We have most Trained and Expert<strong> Native Arab Male and Female Quran Tutors</strong> to make
+          your learning more proficient. We’re teaching in English, Arabic, Hindi and Urdu Language.</li>
+        <li>Our Support Team check and <strong>audit Quran Online Classes</strong> to give you best Experience.
+        </li>
+        <li>We audit our classes to make sure smooth and high quality services.</li>
+      </ul>
+      <p><strong>Quran Ayat Institute</strong> makes Holy Quran and Tajweed easy, it is the necessity of younger
+        generation to <a href="">learn the basics of Islam</a> and
+        become successful in this word and hereafter.</p>
+      <p>With <strong>Quran Ayat</strong>, our purpose is to demonstrate the skills of our <strong>online Quran
+          tutors and Islamic Scholars.</strong></p>
+      <p>who will help you <a href="">learn tafseer online</a>
+        and make your Quran learning incredibly easy with online Quran teaching on Skype.</p>
+      <p>What we aim for is to create a truly world class top Quran and Tajweed academic online where students
+        and people from any age can learn to read Quran and comprehend Quran from the comfort of their homes.
+      </p>
+      <h3>Learning Quran Features at Quran Ayat</h3>
+      <ul class="list">
+        <li>Students can take Quran classes at anytime anywhere; they don’t need to put aside their busy
+          schedule or school activities and get best online Quran classes at fixed hours with us.</li>
+        <li>We make your learning experience unforgettable and convenient.</li>
+        <li>Whether you are a group of students learning Quran from our learned professionals or individual
+          student.</li>
+        <li>we provide individual attention to each student during lecture delivery and Quran Classes.</li>
+        <li>Our strategic approach is to focus on the weaknesses of each student and help them overcome their
+          problems in understanding and learning Quran. For that, no single student is given preference on any
+          bias.</li>
+      </ul>
+    </div>
+  </div>
+  
+            <div class="accordion">
+              <input type="radio" name="radio-a" id="check2">
+              <label class="accordion-label" for="check2">Accordion 2</label>
+              <div class="accordion-content">
+                <p>I hope you are enjoing the video, don't forget to give your feedback in comment section</p>
+              </div>
+            </div>
+  
+            <div class="accordion">
+              <input type="radio" name="radio-a" id="check3">
+              <label class="accordion-label" for="check3">Accordion 3</label>
+              <div class="accordion-content">
+                <p>If you liked then don't forget to subscribe the channel for latest videos. </p>
+              </div>
+            </div>
+          </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.accordion-wrapper {
+  /* border-radius: 8px; */
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  width: 600px;
+  /* margin: 20px auto; */
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.accordion {
+  width: 100%;
+  color: var(--color-lightGray-4);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.accordion:last-child{
+  margin-bottom: 0;
+}
+.accordion-label {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, .03);
+}
+.accordion-label.active {
+    border-top: 1px solid var(--color-dark-blue-two);
+}
+.accordion-label:hover {
+  /* background: var(--color-dark-blue); */
+  
+}
+.accordion-label::after {
+  content: "\276F";
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.accordion-content {
+  max-height: 0;
+  padding: 0 16px;
+  color: var(--color-lightGray-4);
+  /* background: whit; */
+  transition: all 0.3s;
+}
+.accordion-content p {
+  margin: 0 0 21px;
+  color: var(--color-lightGray-4);
+}
+.accordion-content p a {
+  color: var(--color-dark-blue);
+  transition: var(--transition-0-3);
+}
+.accordion-content p a:hover {
+  color: var(--color-lightGray-4);
+}
+.accordion-content p a strong {
+  color: var(--color-dark-blue);
+  margin-bottom: 10px;
+  transition: var(--transition-0-3);
+}
+.accordion-content p a strong:hover {
+  color: var(--color-lightGray-4);
+}
+.accordion-content .list {
+  list-style: inside;
+  padding: 0;
+}
+.accordion-content .list li {
+  margin-bottom: 0.6em;
+}
+.accordion-content h3 {
+  font-size: 1.25em;
+  color: var(--color-black);
+}
+input:checked + .accordion-label {
+  /* background: rgba(4,57,94,1); */
+  color: var(--color-dark-blue-two);
+}
+input:checked + .accordion-label::after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+input:checked ~ .accordion-content {
+  max-height: fit-content;
+  padding: 16px;
+}

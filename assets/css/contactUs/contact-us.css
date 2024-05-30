@@ -1,0 +1,281 @@
+:root {
+    --color-white: #fff;
+    --color-gray-50: #ffffffcc;
+    --color-gray-100: #f5f5f5;
+    --color-gray-200: #e5e5e5;
+    --color-gray-300: #d4d4d4;
+    --color-gray-400: #a3a3a3;
+    --color-gray-500: #737373;
+    --color-gray-600: #525252;
+    --color-gray-700: #404040;
+    --color-gray-800: #262626;
+    --color-gray-900: #171717;
+    --color-black: #141414;
+    --color-black-two: black;
+    --color-black-three: #161616;
+    --color-black-four: #32373c;
+    --color-lightGray-1: #e7e7e7;
+    --color-lightGray-2: #e8e8e8;
+    --color-lightGray-3: #f1f1f1;
+    --color-lightGray-4: #777777;
+    --color-lightGray-5: #eeeeee;
+    --color-lightGray-6: #838383;
+    --color-lightGray-7: #f7f7f7;
+    --color-lightGray-8: #e9e9e9;
+    --color-dark-blue: #334862;
+    --color-dark-blue-two: #446084;
+    --color-dark-blue-three: #0078d7;
+    --color-dark-blue-four: #1c64f2;
+    --color-yellow-one: #ffb606;
+    --color-yellow-two: #cc9104;
+    --color-yellow-three: #e6a303;
+    --color-yellow-four: #faedcc;
+    --color-yellow-five: #e9a501;
+    --color-yellow-sex: #de982f;
+    --color-yellow-seven: #f8ead5;
+    --color-yellow-eight: #f7f7f7;
+    --color-yellow-nine: #faca15;
+    --color-red-one: #d26e4b;
+    --color-red-two: #f1d3c8;
+    --color-red-three: #dd3333;
+    --color-green-one: #057a55;
+    --transition-0-3: 0.3s;
+    --transition-0-5: 0.5s;
+}
+
+
+/* Start Contact Us */
+.contact-us {
+    padding: 70px 0;
+    height: 65%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../../images/contact-us/Contact-Us.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: content-box;
+    position: relative;
+}
+
+.contact-us .container .title {
+    padding-top: 120px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.contact-us .container .title h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-us .container .title h2 span {
+    color: var(--color-yellow-one);
+}
+
+.contact-us .container .title .text {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contact-us .container .title p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+/* End Contact Us */
+
+
+/* Start Body Contact Us */
+.body-contact-us {
+    background-color: #f4f4f4;
+    height: 150%;
+}
+
+
+.body-contact-us .container .card-body {
+    position: relative;
+    margin-top: -100px;
+    background-color: var(--color-white);
+    text-align: center;
+    padding-top: 50px;
+    height: 270px;
+}
+
+.body-contact-us .container .card-body h4 {
+    color: var(--color-yellow-one);
+    transition: var(--transition-0-3);
+}
+
+.body-contact-us .container .card-body h4:hover {
+    color: var(--color-yellow-two);
+}
+
+.body-contact-us .container .card-body p {
+    color: var(--color-lightGray-4);
+    margin-bottom: 50px;
+}
+
+.body-contact-us .container .card-body .btns-tutorial {
+    display: inline-block;
+}
+
+.body-contact-us .container .card-body .btns-tutorial .usa {
+    background-color: var(--color-yellow-one);
+    width: fit-content;
+}
+
+.body-contact-us .container .card-body .btns-tutorial .uk {
+    background-color: var(--color-yellow-one);
+    width: fit-content;
+}
+
+.body-contact-us .container .card-body .btns-tutorial .uk-333 {
+    background-color: #81d742;
+    width: fit-content;
+}
+
+.body-contact-us .container .card-body .btns-tutorial:hover .uk-333 {
+    background-color: #67ac35;
+}
+
+.body-contact-us .container .card-body .btns-tutorial .info,
+.body-contact-us .container .card-body .btns-tutorial .gmail {
+    background-color: var(--color-yellow-one);
+    width: fit-content;
+}
+
+.body-contact-us .container .card-body .btns-tutorial:hover .info,
+.body-contact-us .container .card-body .btns-tutorial:hover .gmail {
+    background-color: var(--color-yellow-two);
+}
+
+@media screen and (max-width: 1030px) {
+    .body-contact-us {
+        height: fit-content;
+    }
+
+    .body-contact-us .container .card-body {
+        margin-bottom: 150px;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .body-contact-us .container .card-body {
+        margin-bottom: 130px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-contact-us .container .card-body.body-one {
+        margin-top: -25px;
+    }
+}
+
+.body-contact-us .container .card-body.body-three {
+    margin-top: 70px;
+    height: 960px;
+}
+
+.body-contact-us .container .card-body.body-three h4 {
+    color: var(--color-black-three);
+}
+
+.body-contact-us .container .card-body.body-four {
+    margin-top: 70px;
+    height: 960px;
+    padding: 35px;
+}
+
+.body-contact-us .container .card-body.body-four h4 {
+    color: var(--color-black-three);
+    text-align: left;
+    margin-left: 15px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.body-contact-us .container .card-body.body-four h4::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    background-color: #0000001a;
+    bottom: -10px;
+    left: 0;
+}
+
+.body-contact-us .container .card-body.body-four p {}
+
+.body-contact-us .container .card-body.body-four p a {
+    color: var(--color-yellow-one);
+    transition: var(--transition-0-3);
+}
+
+.body-contact-us .container .card-body.body-four p a:hover {
+    color: var(--color-yellow-two);
+}
+
+.body-contact-us .container .card-body.body-four .text-line {
+    margin-bottom: 15px;
+}
+
+.body-contact-us .container .card-body.body-four .line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--color-yellow-three);
+    margin: 0 auto 10px;
+}
+
+@media screen and (max-width: 1030px) {
+
+    .body-contact-us .container .card-body.body-three,
+    .body-contact-us .container .card-body.card-body.body-four {
+        height: fit-content;
+    }
+
+    .body-contact-us .container .card-body.body-three,
+    .body-contact-us .container .card-body.card-body.body-four {
+        margin-top: -90px;
+    }
+}
+
+/* End Body Contact Us */
+
+
+/* Start Quran Institute */
+.institute {
+    padding: 50px 0;
+    background-color: var(--color-white);
+    text-align: center;
+}
+
+@media screen and (max-width: 1030px) {
+    .institute {
+        margin-top: -90px;
+    }
+}
+
+.institute .text-institute {
+    color: var(--color-lightGray-4);
+
+}
+
+.institute .text-institute .text-body-institute {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color: #808080;
+}
+
+.institute .text-institute .text-body-institute strong {
+    color: var(--color-lightGray-4);
+    font-weight: 900;
+}
+
+.institute .text-institute p {}
+
+/* End Quran Institute */
